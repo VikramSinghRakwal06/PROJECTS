@@ -1,0 +1,64 @@
+.button{
+    border: 1px solid black;
+    height: 100px;
+    width: 101px;
+    margin: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    align-items: center;
+    height: 67px;
+}
+body{
+    background-color: darkgrey;
+}
+nav > div{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 17px;
+    font-weight: bolder;
+}
+#grey{
+    background-color:grey ;
+}
+#lightblue{
+    background-color: lightblue;
+    
+}
+#green{
+    background-color: greenyellow;
+}
+#beige{
+    background-color: beige;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.canvas {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 102px 0 ;
+    
+}
+.h2 {
+    display: grid;
+    
+    align-items: center;
+}
+h2 > span{
+    margin: auto;
+}
